@@ -1,0 +1,10 @@
+.Container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+
+  .CalendarWrapper {
+    flex: none;
+    width: 100%;
+  }
+}
