@@ -16,11 +16,27 @@
   * {
     border: none !important;
   }
+  width: 100%;
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
+  overflow-x: auto;
+  // &::-webkit-scrollbar {
+  //   display: none;
+  // }
   .calendarWrapper {
     flex: none;
     width: 100%;
   }
+}
+
+.fc-event-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event {
+  width: 10px;
+  height: 10px;
+  background: rgb(7, 101, 243);
+  border-radius: 50%;
 }
