@@ -5,7 +5,7 @@ import Calendar from "../components/Calendar";
 const HomePage: NextPage = () => {
   return (
     <div>
-      <Calendar weeks={3} />
+      <Calendar weeks={2} />
     </div>
   );
 };

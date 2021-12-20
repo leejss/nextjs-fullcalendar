@@ -1,0 +1,26 @@
+// Daycell 가운데 정렬
+.fc-daygrid-day-top {
+  justify-content: center !important;
+}
+
+// Today background 없애기
+.fc-day-today {
+  background: none !important;
+}
+
+.fc-scroller {
+  overflow: hidden !important;
+}
+
+.calendarContainer {
+  * {
+    border: none !important;
+  }
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  .calendarWrapper {
+    flex: none;
+    width: 100%;
+  }
+}

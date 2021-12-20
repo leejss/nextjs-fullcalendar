@@ -1,6 +1,5 @@
-import "@fullcalendar/common/main.css";
-import "@fullcalendar/daygrid/main.css";
 import "../styles/globals.css";
+import "../styles/calendar.scss";
 import type { AppProps } from "next/app";
 
 function MyApp({ Component, pageProps }: AppProps) {

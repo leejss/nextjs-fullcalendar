@@ -17,6 +17,7 @@ const Calendar: React.FC<CalendarProps> = ({ weeks, height }) => {
     // This code is for handling react hydration error
     // https://nextjs.org/docs/messages/react-hydration-error
     setMounted(true);
+    return () => setMounted(false);
   }, []);
 
   const renderCalendar = () => {
